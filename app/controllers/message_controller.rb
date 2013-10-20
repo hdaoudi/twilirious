@@ -4,8 +4,8 @@ require 'twitter'
 require 'time'
 
 # Twilio Settings
-ACCOUNT_SID   = 'ACa3b48b62ab4f92266ff79077dcb5c333'
-ACCOUNT_TOKEN = '823ed16a27435f4ad152d12ec82d2110'
+ACCOUNT_SID   = ''
+ACCOUNT_TOKEN = ''
 API_VERSION   = '2010-04-01'
 BASE_URL      = "http://twilirious.com"
 CALLER_ID     = '4158952220'
@@ -65,10 +65,10 @@ class MessageController < ApplicationController
   private
   def load_twitter
     Twitter.configure do |config|
-      config.consumer_key       = "rSThLALYIO9AzWeV2lgm9Q"
-      config.consumer_secret    = "GKK6xcZ4Vn4xcHUui91wpIWzEwDJNIRNVrVvi0xk"
-      config.oauth_token        = "244506005-6vDBYrtdtmatSQynj19H2If5oAJJ32yRtDmuiAJ9"
-      config.oauth_token_secret = "umIGnS8pm74p2vLXMwFqnWU7Lw1Pz1jm950ZmJQTXxo"
+      config.consumer_key       = ""
+      config.consumer_secret    = ""
+      config.oauth_token        = ""
+      config.oauth_token_secret = ""
     end
   end
 end
