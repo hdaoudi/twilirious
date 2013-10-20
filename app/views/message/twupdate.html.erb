@@ -1,0 +1,14 @@
+<h2>Twilirious</h2>
+<hr />
+<%= @last_msg.inspect %><br />
+<%= @last_tweet.inspect  %>
+<hr />
+<% @messages.SMSMessage.each do |msg| %>
+<div id="message"> 
+<%= msg.Body.join %><br />
+<%= msg.DateCreated.join %><br />
+<%= msg.From.join %><br />
+<%= msg.Status.join %><br />
+<%= msg.To.join %><br />
+</div>
+<% end %>
