@@ -12,7 +12,7 @@ development:
   database: twilirious_development
   pool: 5
   username: hd
-  password: mnishd
+  password: 
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -25,7 +25,7 @@ test:
   database: twilirious_test
   pool: 5
   username: hd
-  password: mnishd
+  password: 
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -35,5 +35,5 @@ production:
   database: twilirious_production
   pool: 5
   username: hd
-  password: mnishd
+  password: 
   socket: /var/run/mysqld/mysqld.sock
